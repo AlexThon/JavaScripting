@@ -1,3 +1,4 @@
+    
     const raining = true;
     const cold = false;
 
@@ -27,9 +28,27 @@
 
     console.log("Now you're ready to go outside");
  /*
- The program will console pick the scarf to the 
- screen if the temperature is less than 0. e.g -1 etc.
+ The program will show pick the scarf if the temperature is less than 0. e.g -1 etc. 
+ else if the temperature is greater than 15 it will 
+ tell us to that wearing short sleeves is okay*/
 
- If the temperature is greater than 15 then it will 
- tell us that short sleeves are okay
- */
+
+
+ // logical operators section
+ // with more if conditions
+
+ const isCitizen = true;
+ const age = 26;
+
+ if (isCitizen && age > 18) {
+     console.log("You are eligible to vote.");
+ }
+
+ if ( temperature < -40 || temperature > 40) {
+     console.log("Maybe going outside isn't sucha  great idea..");
+ }
+
+ if (!raining) {
+     console.log("Leave your umbrella at home!");
+ }
+ 
