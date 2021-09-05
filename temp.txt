@@ -1,0 +1,3 @@
+replace the text in temp.txt
+Append this text to temp.txt
+This is added from the host computer
